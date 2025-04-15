@@ -30,7 +30,7 @@ export async function sendFakeTransaction(data) {
     location: 'New York',
     deviceId: 'device-123',
     ipAddress: '192.168.1.1',
-    merchantId: 'merchant-456',
+    merchantId: 'totally-safe-website(Bmazon)',
     channel: 'WEB',
     customerAge: 30,
     customerOccupation: 'Engineer',
@@ -38,7 +38,7 @@ export async function sendFakeTransaction(data) {
     loginAttempts: 1,
     accountBalance: 5000.0,
     previousTransactionDate: date,
-    phoneNumber: '+12025550179',
+    phoneNumber: '+17082055170',
     email: data.email,
     transactionStatus: 'PENDING'
   });
