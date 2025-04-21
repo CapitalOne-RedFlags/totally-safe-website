@@ -73,7 +73,7 @@ export default function FakeStore() {
       <p style={{ textAlign: 'left', color: '#444' }}><strong>Secure Verification Portal</strong> 🔐</p>
 
       <form onSubmit={handleSubmit} style={{ marginTop: '2rem' }}>
-        <div style={{ marginBottom: '1rem' }}>
+        <div style={{ marginBottom: '1rem', color: 'black'}}>
           <label>🧑 Full Name:</label><br />
           <input
             required
@@ -84,7 +84,7 @@ export default function FakeStore() {
           />
         </div>
 
-        <div style={{ marginBottom: '1rem' }}>
+        <div style={{ marginBottom: '1rem' , color: 'black'}}>
           <label>📧 Email Address:</label><br />
           <input
             required
@@ -96,7 +96,7 @@ export default function FakeStore() {
           />
         </div>
 
-        <div style={{ marginBottom: '1rem' }}>
+        <div style={{ marginBottom: '1rem', color: 'black' }}>
           <label>💳 Card Number:</label><br />
           <input
             required
@@ -107,7 +107,7 @@ export default function FakeStore() {
           />
         </div>
 
-        <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', color: 'black' }}>
           <div style={{ flex: 1 }}>
             <label>📅 Expiration:</label><br />
             <input
@@ -118,7 +118,7 @@ export default function FakeStore() {
               style={{ padding: '0.5rem', width: '100%' }}
             />
           </div>
-          <div style={{ flex: 1 }}>
+          <div style={{ flex: 1, color: 'black' }}>
             <label>🔐 CVV:</label><br />
             <input
               required
@@ -130,7 +130,7 @@ export default function FakeStore() {
           </div>
         </div>
 
-        <div style={{ marginBottom: '1rem' }}>
+        <div style={{ marginBottom: '1rem', color: 'black' }}>
           <label>🎁 Desired Item:</label><br />
           <input
             required
